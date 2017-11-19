@@ -6,19 +6,21 @@
 	<groupId>com.example</groupId>
 	<artifactId>demosoa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>demosoa</name>
 	<description>Demo project for Spring Boot</description>
 
-	<modules>
-		<module>demo-data</module>
-	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.8.RELEASE</version>
-		<relativePath/>
+		<version>1.4.5.RELEASE</version>
 	</parent>
+
+	<modules>
+		<module>demo-data</module>
+		<module>demo-api</module>
+	</modules>
+
 
 </project>

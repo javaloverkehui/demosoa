@@ -2,7 +2,7 @@ package com.example.demo.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.example.demo.dao.read.custom.AbcDao;
-import com.example.demo.service.TestService;
+import com.example.demo.service.TestServerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  */
 @Service
 @Component
-public class TestServiceImpl implements TestService {
+public class TestServiceImpl implements TestServerService {
 
     @Autowired
     private AbcDao abcDao;
