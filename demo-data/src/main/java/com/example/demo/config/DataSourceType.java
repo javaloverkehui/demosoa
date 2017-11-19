@@ -6,8 +6,8 @@ import lombok.Getter;
  * Created by kehui on 2017/11/19.
  */
 public enum DataSourceType {
-    read("custom", "从库"),
-    write("mbg", "主库");
+    read("read", "从库"),
+    write("write", "主库");
     @Getter
     private String type;
     @Getter
