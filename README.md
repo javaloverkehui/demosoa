@@ -8,3 +8,6 @@
 1.dubbo client service + database model + enum + request param + request result 分离出来，独立出一个 API 模块，用于外部依赖。
 2.服务层依赖 API 模块，服务接口不应直接实现 dubbo client service，应继承后再实现。
 3.应参照该结构，另起一个用于 webmvc 的框架。框架中不应有持久层相关，所有数据应走接口。
+
+尾注：
+项目中用到的，一部分来源于网络，包括但不仅限于官网示例、个人博客、github 开源项目等，中间经过了一定的整理和个人理解。因为学习过程中，参考的内容较多，未能详细记录来源。如有雷同，不是巧合。
